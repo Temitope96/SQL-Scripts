@@ -6,12 +6,12 @@ A Dive into the Athlete Events Data and querying it to discover important insigh
 
 ![Case 1 pix](https://media.self.com/photos/6659efa72e2794fa6f47f803/4:3/w_1600,c_limit/GettyImages-846563176.jpg?fit=scale)
 
-## 📑 Contents Structure
-**-** 📖 Overview / Introduction
-**-** 📁 Dataset
-**-** ❓ Case Study Questions
-**-** ⚒️ Skills & Techniques
-**-** ♻️ Queries / Solutions
+## 📑 Catalogue
+- 📖 Overview / Introduction
+- 📁 Dataset
+- ❓ Case Study Questions
+- ⚒️ Skills & Techniques
+- ♻️ Queries / Solutions
 
 ## 📖 Overview / Introduction
 The Olympic Games (a major international sporting event featuring summer and winter sports competitions) is an event held every four years, involving thousands of athletes from around the world, who represent their countries in various sporting competitions.
