@@ -252,11 +252,10 @@ WITH medals_won AS (
 			GROUP BY NOC, Games
                     )
 SELECT NOC, Games, Gold, Silver, Bronze
-FROM (	SELECT *, ROW_NUMBER() OVER(PARTITION BY Games
-									                  ORDER BY  Gold DESC
-									                          , Silver DESC
-                                            , Bronze DESC) row_no
-		    FROM medals_won
+FROM (	SELECT *, ROW_NUMBER() OVER(PARTITION BY Games ORDER BY  Gold DESC
+					                        , Silver DESC
+                                            			, Bronze DESC) row_no
+	FROM medals_won
       ) sub
 WHERE row_no = 1;
 ```
