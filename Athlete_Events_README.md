@@ -268,7 +268,7 @@ FROM (	SELECT *, ROW_NUMBER() OVER(PARTITION BY Games ORDER BY  Gold DESC
 WHERE row_no = 1;
 ```
 
-17. Q17 Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games
+17. Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games
 
 ``` bash
 WITH medals_won AS (
